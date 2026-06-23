@@ -20,7 +20,7 @@ lista_contatos = resposta.data
 
 # 3. Loop para enviar a mensagem para cada contato encontrado
 for contato in lista_contatos:
-    nome = contato.get("nome")
+    nome = contato.get("nome_contato")
     telefone = contato.get("telefone")
     
     # Criando uma mensagem personalizada
